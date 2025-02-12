@@ -1,0 +1,14 @@
+
+__pycache__/
+*.pyc
+
+envir/
+.env
+uploads/
+3D Models/
+decodage/
+thumbnails/
+node_modules/
+
+.DS_Store
+*.log
