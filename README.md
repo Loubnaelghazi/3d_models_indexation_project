@@ -35,7 +35,7 @@ This project is a **content-based retrieval system** for 3D models, leveraging *
 
 ##  Architecture  
 1️⃣ **Frontend (Angular UI)** - Allows users to upload models, view results, and compare similarity scores.  
-2️⃣ **Backend (Node.js & Express)** - Handles API requests and interacts with the database.  
+2️⃣ **Backend (Node.js & Express)** - Handles API requests and interacts with the database(from Flask).  
 3️⃣ **Database (MongoDB)** - Stores extracted descriptors and search results.  
 4️⃣ **3D Processing (Flask API)** - Computes Fourier & Zernike descriptors and applies mesh reduction.  
 
@@ -73,11 +73,11 @@ ng serve
 ```bash  
 cd flask_api  
 pip install -r requirements.txt  
-python app.py  
+python api.py  
 ```
 
 ### 5️⃣ Run MongoDB  
-Ensure MongoDB is running locally or on a cloud instance (e.g., **MongoDB Atlas**).  
+Ensure MongoDB is running .  
 
 ##  Usage  
 1️⃣ **Upload** a `.obj` 3D model via the web UI.  
@@ -99,8 +99,8 @@ Ensure MongoDB is running locally or on a cloud instance (e.g., **MongoDB Atlas*
 ##  Supervision  
 **Prof. M'hamed AIT KBIR**  
 
-## 📜 License  
+##  License  
 This project is licensed under the **MIT License**.  
 
 ---  
-🚀 **Enhancing 3D model search with AI-powered shape analysis!**
+ **Enhancing 3D model search with AI-powered shape analysis!**
