@@ -104,3 +104,5 @@ This project is licensed under the **MIT License**.
 
 ---  
  **Enhancing 3D model search with AI-powered shape analysis!**
+
+ **Note:** If you need access to the dataset , please contact me as it is in a huge format.
